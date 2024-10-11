@@ -53,5 +53,5 @@ trainer = Trainer(
 trainer.train()
 
 
-model.save_pretrained('./fine-tuned-alexa')
-tokenizer.save_pretrained('./fine-tuned-alexa')
+model.save('./fine-tuned-alexa')
+tokenizer.save('./fine-tuned-alexa')
